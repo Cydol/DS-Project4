@@ -46,7 +46,8 @@ Federal laws of the United States of America prohibit discrimination based on a 
 
 ### Sample Work
 ---
-**Project Workflow**
+**Project Workflow**  
+
 ```mermaid
 flowchart LR
   Step1["Data Gathering:
