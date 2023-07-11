@@ -251,7 +251,7 @@ plotty <- function(fit, title) {
 overall_fit <- survfit(f, data=grp)
 summary(overall_fit, times=c(730))
 
-white <- filter(grp, race == "Caucasian") 
+white <- filter(grp, race == "Caucasian")
 white_fit <- survfit(f, data=white)
 summary(white_fit, times=c(730))
 
@@ -316,7 +316,7 @@ grid.arrange(plotty(vwhite_fit, "White defendants (Violent)"), plotty(vblack_fit
 
 
 # Task 7: Predict Accuracy (Non Violent and Violent Recidivism with respect to Gender)
-# Q1: Read cox-parsed.csv and cox-violent	parsed.csv
+# Q1: Read cox-parsed.csv and cox-violent parsed.csv
 # Datasets are already read in Tasks 5 and 6
 
 # Task 7: Predict Accuracy (Non Violent and Violent Recidivism with respect to Gender)
