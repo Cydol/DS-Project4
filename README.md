@@ -39,15 +39,15 @@ Federal laws of the United States of America prohibit discrimination based on a 
 **Project Workflow**
 ```mermaid
 flowchart LR
-  Step1["`***Data Gathering:***
+  Step1["`Data Gathering:
    <> Install and load relevant R packages
    <> Understand the dataset
    <> Load the dataset`"]
-  Step2["`***Data Preparation:***
+  Step2["`Data Preparation:
   <> Cleanse the data
   <> Perform exploratory data analysis
   <> Prepare data for model creation`"]
-  Step3["`***Model Creation:***
+  Step3["`Model Creation:
   <> Build the model
   <> Analyse the model results`"]
   Step1-->Step2-->Step3
